@@ -1,9 +1,10 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 namespace Anaglyph.DisplayCapture
-{
+{ 
 	[DefaultExecutionOrder(-1000)]
 	public class DisplayCaptureManager : MonoBehaviour
 	{
@@ -61,7 +62,7 @@ namespace Anaglyph.DisplayCapture
 
 			androidInterface = new AndroidInterface(gameObject, Size.x, Size.y);
 
-			screenTexture = new Texture2D(Size.x, Size.y, TextureFormat.RGBA32, 1, false);
+			screenTexture = new Texture2D(Size.x, Size.y, TextureFormat.RGBA32, false);
 		}
 
 		private void Start()
@@ -69,7 +70,7 @@ namespace Anaglyph.DisplayCapture
 			flipTexture = new RenderTexture(Size.x, Size.y, 1, RenderTextureFormat.ARGB32, 1);
 			flipTexture.Create();
 
-			onTextureInitialized.Invoke(screenTexture);
+            onTextureInitialized.Invoke(screenTexture);
 
 			if (startScreenCaptureOnStart)
 			{
@@ -105,15 +106,15 @@ namespace Anaglyph.DisplayCapture
 		private unsafe void OnNewFrameAvailable()
 		{
 			if (imageData == default) return;
+
 			screenTexture.LoadRawTextureData((IntPtr)imageData, bufferSize);
 			screenTexture.Apply();
 
-			if (flipTextureOnGPU)
+            if (flipTextureOnGPU)
 			{
 				Graphics.Blit(screenTexture, flipTexture, new Vector2(1, -1), Vector2.zero);
 				Graphics.CopyTexture(flipTexture, screenTexture);
 			}
-
 			onNewFrame.Invoke();
 		}
 
