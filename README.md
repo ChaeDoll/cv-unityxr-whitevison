@@ -89,4 +89,5 @@
 - v0.0.1 : White Vision - 1차 개발 완료 ( 2024.12.05 )
 
 ### Reference
-*Thanks for trev3d/QuestDisplayAccessDemo - MediaProjection API*
+- *Thanks for trev3d - MediaProjection API* - https://github.com/trev3d/QuestDisplayAccessDemo
+- *Boundaryless Setting* - https://developers.meta.com/horizon/documentation/unity/unity-boundaryless/
