@@ -3,7 +3,7 @@
 ![header](https://capsule-render.vercel.app/api?type=transparent&height=300&section=header&text=White%20Vision&fontSize=90&fontColor=81F7F3)  
 ## 🎬시연 영상🎬  
 
-[![Video Label](http://img.youtube.com/vi/iHz43jF7gY15bN5G/0.jpg)](https://youtu.be/kCf2NHandRo?si=iHz43jF7gY15bN5G)  
+[![Video Label](http://img.youtube.com/vi/kCf2NHandRo/0.jpg)](https://youtu.be/kCf2NHandRo?si=iHz43jF7gY15bN5G)  
 ▲ 클릭하여 영상으로 이동
 
 <br>  
