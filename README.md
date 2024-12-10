@@ -49,10 +49,10 @@
 4. 버튼을 누르면, 해당 AI Model을 관리하는 스크립트가 담긴 Object를 활성화한다.
 5. 모델 관리자가 활성화되면 Model을 불러오고, 카메라 데이터를 모델의 Input Tensor에 맞게 전처리한다.
 6. 값을 추론하여 Output Tensor를 가져오고, 각 용도에 맞게 활용한다.
-6-1. Segmentation : 출력 화면의 픽셀마다 클래스 별 확률 값을 비교하여 가장 큰 값을 가진 클래스를 선택하여 클래스에 맞는 색상을 Class Map에 저장하고, Class Map의 색상을 한 번에 출력 화면에 반영하여 결과를 보여준다.
+  7. Segmentation : 출력 화면의 픽셀마다 클래스 별 확률 값을 비교하여 가장 큰 값을 가진 클래스를 선택하여 클래스에 맞는 색상을 Class Map에 저장하고, Class Map의 색상을 한 번에 출력 화면에 반영하여 결과를 보여준다.
 6-2. Detection : 출력으로 나온 left_x, left_y, right_x, right_y, label, confidence를 바탕으로 장애물의 position과 width, height를 구한다. 이후 class index에 맞게 이름을 매칭하고 최소 확률값(threshold)보다 높은 값이 나온 장애물에 **경고 이미지**를 띄운다.
 6-3. Edge Coloring : 예외적으로 AI 모델을 사용하지 않고, Passthrough Layer에서 제공하는 Edge Color 기능을 관리하여 사용한다. 버튼을 누를 때마다 윤곽선의 색상이 변경된다.
-7. 동시에 사용하고 싶은 기능들을 모두 활성화하여 함께 사용하며 보행한다.
+8. 동시에 사용하고 싶은 기능들을 모두 활성화하여 함께 사용하며 보행한다.
  
 <br>
 
