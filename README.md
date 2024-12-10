@@ -38,17 +38,22 @@
   
 <br>
 
-## 🧭협업 Work Flow🧭
+## 🧭Develop Flow🧭
 ![image](https://github.com/user-attachments/assets/69f805a1-0d40-46ef-8539-d2e018f82cb7)
 
 ![image](https://github.com/user-attachments/assets/b5aa4b58-6a44-49a7-9987-91dcce0c5535)
-**경험 과정**
-1. 차를 마시기 전, 혼합현실(MR) 환경에서 차에 대한 설명 및 원재료 등의 정보가 담긴 티 카드를 통해 경험할 차에 대해 간단하게 이해한다.
-2. 첫 번째 경험 - 소리에 집중할 수 있는 공간에 진입하여 차 이미지에 대한 소리에 집중하고, 마시게 될 차에 대해 소리를 들으며 상상한다.
-3. 두 번째 경험 - 혼합현실(MR) 환경으로 돌아와서 눈 앞에 놓인 차를 마시며 향과 맛을 경험한다.
-4. 세 번째 경험 - 가상공간(VR) 으로 이동하여 차가 전달하고자 하는 분위기를 시·청각적으로 경험하고 차의 원재료들을 만져보며 즐긴다.
-5. 경험을 마친 후, 실물 티 카드 뒷면에 경험에 대한 후기를 남긴다.
-
+**서비스 실행 과정**
+1. 앱이 실행되면, 좌측 손목에 있는 가상 UI 전원 버튼을 눌러서 켠다.
+2. 전원을 켜면 MediaProjection에 의해 1024x1024 크기의 카메라 데이터를 실시간으로 가져온다.
+3. Segmentation, Detection, Edge Coloring 중 원하는 기능들을 누른다.
+4. 버튼을 누르면, 해당 AI Model을 관리하는 스크립트가 담긴 Object를 활성화한다.
+5. 모델 관리자가 활성화되면 Model을 불러오고, 카메라 데이터를 모델의 Input Tensor에 맞게 전처리한다.
+6. 값을 추론하여 Output Tensor를 가져오고, 각 용도에 맞게 활용한다.
+  - Segmentation : 출력 화면의 픽셀마다 클래스 별 확률 값을 비교하여 가장 큰 값을 가진 클래스를 선택하여 클래스에 맞는 색상을 Class Map에 저장하고, Class Map의 색상을 한 번에 출력 화면에 반영하여 결과를 보여준다.
+  - Detection : 출력으로 나온 left_x, left_y, right_x, right_y, label, confidence를 바탕으로 장애물의 position과 width, height를 구한다. 이후 class index에 맞게 이름을 매칭하고 최소 확률값(threshold)보다 높은 값이 나온 장애물에 **경고 이미지**를 띄운다.
+  - Edge Coloring : 예외적으로 AI 모델을 사용하지 않고, Passthrough Layer에서 제공하는 Edge Color 기능을 관리하여 사용한다. 버튼을 누를 때마다 윤곽선의 색상이 변경된다.
+7. 동시에 사용하고 싶은 기능들을 모두 활성화하여 함께 사용하며 보행한다.
+ 
 <br>
 
 ## ✅개발 구현 체크리스트✅
