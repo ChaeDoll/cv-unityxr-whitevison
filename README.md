@@ -16,33 +16,17 @@
   - 실시간 영상처리를 활용하여 **보행하면서** 사용 가능할 정도의 저지연, 높은 프레임율을 보일 것
   - 서버 통신이 필요없는 OnDeive AI를 활용하여 언제 어디서든 XR 기기만으로 사용 가능할 것 
   - 누구나 사용 가능한 직관적인 사용 방법일 것
-  - Segentation, Detection, Edge Coloring 등 기능들을 원하는 대로 조합하여 사용이 가능할 것
+  - Segmentation, Detection, Edge Coloring 등 기능들을 원하는 대로 조합하여 사용이 가능할 것
 - **기대 효과** : 잔존시력을 가진 시각장애인, 저시력자, 노인에게 보행을 돕는 정보를 제공하여 **안전한 독립 보행에 기여**하고자 한다. 
 <br>  
 
 ## 👥프로젝트 참여자👥
 - *AI* : 서동주, **임채윤**, 
 - *XR Develop* : **임채윤**
-> 임채윤 (Chaeyun Lim : GitHub Page => https://github.com/ChaeDoll)
+> 임채윤 (Chaeyun Lim : GitHub Pag습
 
-> 서동주 (Dongju Seo : GitHub Page => https://github.com/seodj01)
- 
-<br>  
-
-## ⚙사용 기술 (개발 언어 및 도구)⚙
-<img src="https://img.shields.io/badge/Unity-222324?style=for-the-badge&logo=Unity&logoColor=white"/> <img src="https://img.shields.io/badge/Meta XR SDK-0467DF?style=for-the-badge&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
-- Language : C#, Python
-- Develop Platform : Unity (유니티), Jupyter Notebook, Python IDE
-- Library : Meta XR All-In-One SDk, PyTorch
-- Tools : GitHub, Visual Studio
-  
-<br>
-
-## 🧭Develop Flow🧭
-![image](https://github.com/user-attachments/assets/69f805a1-0d40-46ef-8539-d2e018f82cb7)
-
+## 서비스 실행 과정
 ![image](https://github.com/user-attachments/assets/b5aa4b58-6a44-49a7-9987-91dcce0c5535)
-**서비스 실행 과정**
 1. 앱이 실행되면, 좌측 손목에 있는 가상 UI 전원 버튼을 눌러서 켠다.
 2. 전원을 켜면 MediaProjection에 의해 1024x1024 크기의 카메라 데이터를 실시간으로 가져온다.
 3. Segmentation, Detection, Edge Coloring 중 원하는 기능들을 누른다.
@@ -67,7 +51,7 @@
 
 ## 🖼️구현 사항🖼️
 ### **도보/도로 색상 구분**
-- Sementic Segmentation 기술 활용
+- Semantic Segmentation 기술 활용
 
 <img src="https://github.com/user-attachments/assets/f7ee7656-8622-4804-84b4-1363f3eec54f" width="50%"/>  
 <br>
@@ -88,7 +72,7 @@
 <details>
   <summary>클릭하여 펼쳐보기</summary>
   <ui>
-    <li>Sementic Segmentation 모델 성능 향상</li>
+    <li>Semantic Segmentation 모델 성능 향상</li>
     <li>Segmentation 데이터 증강 활용하여 학습 (Rotate, Crop, Zoom, Shear, Brightness 등 조절)</li>
     <li>CycleGAN 등 생성형 이미지 활용하여 계절 변화 대응하는 데이터 생성 및 학습</li>
     <li>Object Detection 모델 성능 향상 (Latency, Frame 등 문제 해결)</li>
