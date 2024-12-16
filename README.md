@@ -34,9 +34,9 @@
 ## ⚙사용 기술 (개발 언어 및 도구)⚙
 <img src="https://img.shields.io/badge/Unity-222324?style=for-the-badge&logo=Unity&logoColor=white"/> <img src="https://img.shields.io/badge/Meta XR SDK-0467DF?style=for-the-badge&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 - Language : C#, Python
-- Develop Platform : Unity (유니티), Jupyter Notebook, Python IDE
+- Platform : Unity Editor 2022.3.35f, Jupyter Notebook
 - Library : Meta XR All-In-One SDk, PyTorch
-- Tools : GitHub, Visual Studio
+- Tools/IDE : GitHub, Visual Studio, Visual Code, Python IDE
   
 <br>
 
