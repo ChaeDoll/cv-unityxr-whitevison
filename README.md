@@ -25,7 +25,7 @@
 ## 👥프로젝트 참여자👥
 - *AI* : 서동주, **임채윤**, 
 - *XR Develop* : **임채윤**
-> 임채윤 (Chaeyun Lim : GitHub Page => https://github.com/ChaeDoll)
+> 임채윤 (Chaeyun Lim : GitHub Page => https://github.com/ChaeDoll)  
 > 서동주 (Dongju Seo : GitHub Page => https://github.com/seodj01)
  
 <br>  
