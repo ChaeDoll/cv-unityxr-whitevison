@@ -25,7 +25,20 @@
 ## 👥프로젝트 참여자👥
 - *AI* : 서동주, **임채윤**, 
 - *XR Develop* : **임채윤**
-> 임채윤 (Chaeyun Lim : GitHub Pag습
+> 임채윤 (Chaeyun Lim : GitHub Page => https://github.com/ChaeDoll)
+> 서동주 (Dongju Seo : GitHub Page => https://github.com/seodj01)
+ 
+<br>  
+## ⚙사용 기술 (개발 언어 및 도구)⚙
+<img src="https://img.shields.io/badge/Unity-222324?style=for-the-badge&logo=Unity&logoColor=white"/> <img src="https://img.shields.io/badge/Meta XR SDK-0467DF?style=for-the-badge&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+- Language : C#, Python
+- Develop Platform : Unity (유니티), Jupyter Notebook, Python IDE
+- Library : Meta XR All-In-One SDk, PyTorch
+- Tools : GitHub, Visual Studio
+  
+<br>
+## 🧭Develop Flow🧭
+![image](https://github.com/user-attachments/assets/69f805a1-0d40-46ef-8539-d2e018f82cb7)
 
 ## 서비스 실행 과정
 ![image](https://github.com/user-attachments/assets/b5aa4b58-6a44-49a7-9987-91dcce0c5535)
