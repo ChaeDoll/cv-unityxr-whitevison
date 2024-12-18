@@ -96,7 +96,7 @@
 - Unity 환경에서 사용하기 위해 ONNX(Open Neural Network eXchange) 포맷으로 변환하여 사용
 - 후처리를 통해 안전한 길(인도, 점자블록)과 위험한 길(도로, 위험구역, 자전거도로, 골목길), 횡단보도 세 부분으로 나누어 색상 출력
 
-<img src="https://github.com/user-attachments/assets/f7ee7656-8622-4804-84b4-1363f3eec54f" width="50%"/>  
+<img src="https://github.com/user-attachments/assets/338be7f6-8f9b-4470-b46a-ace246a9b750" width="50%"/>  
 <br>
 
 ### **장애물 경고 안내**
@@ -108,8 +108,8 @@
 - 후처리를 통해 결과 클래스 80개 중, 위험 요소(사람, 자전거, 자동차, 오토바이, 버스, 트럭) 부류만 별도 필터링하여 활용
 - 출력 결과 Feature에 있는 좌측 x, y 좌표와 우측 x, y 좌표를 토대로 감지된 장애물의 위치와 크기를 계산
 - 계산된 결과를 토대로 경고 안내 이미지를 화면에 출력
- 
-<img src="https://github.com/user-attachments/assets/369306d9-a4e0-4300-a1b0-df7ad78267ac" width="50%"/>   
+
+<img src="https://github.com/user-attachments/assets/dc239ad1-11c3-405c-b033-557269af0636" width="50%"/>   
 <br>
 
 ### **윤곽선 강조**
@@ -118,8 +118,8 @@
 - C# 스크립트를 작성하여 윤곽선의 활성화/비활성화와 색상 변경을 제어
 - 빨간색, 초록색, 파란색, 노란색, 검은색 중 원하는 색상을 선택하여 표시 가능
 - 변환 버튼을 누를 때마다 윤곽선 색상이 변경되도록 구현
-  
-<img src="https://github.com/user-attachments/assets/369306d9-a4e0-4300-a1b0-df7ad78267ac" width="50%"/>   
+
+<img src="https://github.com/user-attachments/assets/0bc82aef-8d2e-434e-8c8f-a2b780f2a8eb" width="50%"/>   
 <br>
 
 ## 💡추후 업데이트 아이디어💡
