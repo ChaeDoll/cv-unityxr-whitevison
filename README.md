@@ -1,6 +1,6 @@
 
 
-![header](https://capsule-render.vercel.app/api?type=transparent&height=300&section=header&text=White%20Vision👁️‍🗨️&fontSize=90&fontColor=FAE311)  
+![header](https://capsule-render.vercel.app/api?type=transparent&height=300&section=header&text=White%20Vision👁️‍🗨️&fontSize=90&fontColor=F3FB0B)  
 ## 🎬시연 영상🎬  
 
 [![Video Label](http://img.youtube.com/vi/kCf2NHandRo/0.jpg)](https://youtu.be/kCf2NHandRo?si=iHz43jF7gY15bN5G)  
