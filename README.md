@@ -18,7 +18,7 @@
   - 실시간 영상처리를 활용하여 **보행하면서** 사용 가능할 정도의 낮은 지연속도와, 높은 주사율(Frame Rate) 보일 것
   - 서버 통신이 필요없는 OnDeive AI를 활용하여 언제 어디서든 XR 기기만으로 사용 가능할 것 
   - 누구나 사용 가능한 직관적인 사용 방법일 것
-  - Segmentation, Detection, Edge Coloring 등 기능들을 원하는 대로 조합하여 사용이 가능할 것
+  - Semantic Segmentation, Object Detection, Edge Coloring 등 기능들을 원하는 대로 조합하여 사용이 가능할 것
 - **기대 효과** : 잔존시력을 가진 시각장애인, 저시력자, 노인에게 보행을 돕는 정보를 제공하여 **안전한 독립 보행에 기여**하고자 한다. 
 <br>  
 
